@@ -1,0 +1,107 @@
+/* Common styles for all screen sizes */
+body {
+    font-family: "Economica";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #ffeecc;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Home (Desktop) */
+@media only screen and (min-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
+    }
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .croissant-wrapper {
+        position: absolute;
+        width: 805px;
+        height: 805px;
+        left: 317px;
+        top: 158px;
+        background: url("Croissant With White Buttons 1.png");
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .croissant-text {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        font-size: 96px;
+        line-height: 110px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 0;
+    }
+    .nav-item {
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .nav-item a {
+        color: #ffeecc;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .nav-item a:hover {
+        color: #ffeecc;
+        text-decoration: underline;
+    }
+}
+
+/* Home (Mobile) */
+@media only screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
+    }
+    .container {
+        max-width: 100%;
+        margin: 0;
+        position: relative;
+    }
+    .croissant-wrapper {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        background: url("img/Croissant With White Buttons.png");
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .croissant-text {
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        font-size: 48px;
+        line-height: 55px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .nav-item {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .nav-item a {
+        color: #ffeecc;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .nav-item a:hover {
+        color: #ffeecc;
+        text-decoration: underline;
+    }
+}
