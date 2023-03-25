@@ -10,13 +10,13 @@
     z-index: 999; /* Set the z-index to make sure the header is on top of other elements */
     background-color: #ff6973; /* Set the background color of the header */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow to the header */
-    height: 50px; /* Set the height of the header */
+    height: 80px; /* Set the height of the header */
 }
 
 /* The "Team Croissant" text */
 .Header-team-text {
     font-family: "Economica", sans-serif; /* Set the font family for the text */
-    font-size: 24px; /* Set the font size for the text */
+    font-size: 48px; /* Set the font size for the text */
     font-weight: 700; /* Set the font weight for the text */
     color: #ffffff; /* Set the color of the text */
     cursor: pointer; /* Set the cursor to a pointer when hovering over the text */
@@ -37,16 +37,17 @@
     align-items: center; /* Center items vertically */
     gap: 20px; /* Add some space between the links */
     width: 33.33%; /* Set the width of the links to one-third of the header */
-    height: 50px; /* Set the height of the navigation bar */
+    height: 80px; /* Set the height of the navigation bar */
     display: flex; /* Use flexbox to align items */
     align-items: center; /* Center items vertically */
     padding: 0 20px;
+    font-size: 32px;
 }
 
 /* The individual navigation links */
 .Header-navbar > div {
     font-family: "Economica", sans-serif; /* Set the font family for the links */
-    font-size: 18px; /* Set the font size for the links */
+    font-size: 32px; /* Set the font size for the links */
     font-weight: 500; /* Set the font weight for the links */
     color: #ffffff; /* Set the color of the links */
     cursor: pointer; /* Set the cursor to a pointer when hovering over the links */
@@ -56,4 +57,6 @@
 /* The hover effect for the navigation links */
 .Header-navbar > div:hover {
     color: #eee; /* Set the color of the links when hovering over them */
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
 }
