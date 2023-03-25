@@ -10,7 +10,7 @@
     z-index: 999; /* Set the z-index to make sure the header is on top of other elements */
     background-color: #ff6973; /* Set the background color of the header */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow to the header */
-    height: 75px; /* Set the height of the header */
+    height: 50px; /* Set the height of the header */
 }
 
 /* The "Team Croissant" text */
@@ -27,6 +27,7 @@
     display: flex; /* Use flexbox to align items */
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
+    margin-left: 0; /* Remove the left margin */
 }
 
 /* The navigation links */
@@ -36,9 +37,10 @@
     align-items: center; /* Center items vertically */
     gap: 20px; /* Add some space between the links */
     width: 33.33%; /* Set the width of the links to one-third of the header */
-    height: 75px; /* Set the height of the navigation bar */
+    height: 50px; /* Set the height of the navigation bar */
     display: flex; /* Use flexbox to align items */
     align-items: center; /* Center items vertically */
+    padding: 0 20px;
 }
 
 /* The individual navigation links */
