@@ -11,14 +11,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
         <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
     </head>
-    <body>  
+    <body id="HomeTarget">  
         <header class="Header">
             <div class="Header-team-text">Team Croissant</div>
             <div class="Header-navbar">
-                <div class="Header-navbar-home">Home</div>
-                <div class="Header-navbar-our-work">Our Work</div>
-                <div class="Header-navbar-team">Team</div>
-                <div class="Header-navbar-contact">Contact</div>
+                <div class="Header-navbar-home Header-nav-item" data-target="HomeTarget">Home</div>
+                <div class="Header-navbar-our-work Header-nav-item" data-target="OurWorkTarget">Our Work</div>
+                <div class="Header-navbar-team Header-nav-item" data-target="TeamTarget">Team</div>
+                <div class="Header-navbar-contact Header-nav-item" data-target="ContactTarget">Contact</div>
             </div>
         </header>
                 <main class="App-main">
@@ -29,32 +29,36 @@
                 </div>
                 <div class="content-container">
                     <!-- Our Work -->
-                    <div class="OurWork-container">
-                        <h2 class="OurWork-header section-header">Our Work</h2>
+                    <div id="OurWork" class="OurWork-container">
+                        <h2 id="OurWorkTarget" class="OurWork-header section-header">Our Work</h2>
                         <div class="OurWork-img-container content-img-container">
                             <img src="img/ezgif 1.png" alt="Our Work"></img>
                         </div>
                     </div>
                     <!-- Starlight -->
-                    <div class="Starlight-container">
-                        <h3 class="Staright-header section-header">Starlight Express</h3>
+                    <div id="Starlight" class="Starlight-container">
+                        <h3 id="StarlightTarget" class="Staright-header section-header">Starlight Express</h3>
                         <div class="Starlight-img-container content-img-container">
                             <img src="img/Starlight.png" alt="Starlight Express"></img>
                         </div>
                     </div>
                     <!-- Candy -->
-                    <div class="Candy-container">
-                        <h3 class="Candy-header section-header">Candy Core Crisis</h3>
+                    <div id="Candy" class="Candy-container">
+                        <h3 id="CandyTarget" class="Candy-header section-header">Candy Core Crisis</h3>
                         <div class="Candy-img-container content-img-container">
                             <img src="img/Candy.png" alt="Candy"></img>
                         </div>
                     </div>
                     <!-- Team -->
-                    <div class="Team-container">
-                        <h3 class="Team-header section-header">Team</h3>
+                    <div id="Team" class="Team-container">
+                        <h3 id="TeamTarget" class="Team-header section-header">Team</h3>
+                    </div>
+                    <!-- Contact -->
+                    <div id="Contact" class="Contact-container">
+                        <h3 id="ContactTarget" class="Contact-header section-header">Team</h3>
                     </div>
                 </div>
-
             </main>
+            <script src="js/main.js"></script> 
     </body>
 </html>
