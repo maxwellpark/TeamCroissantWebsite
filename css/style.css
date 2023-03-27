@@ -4,7 +4,6 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
-
 body {
     font-family: "Economica";
     font-style: normal;
@@ -17,12 +16,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
 main {
     margin: 0;
     padding: 0;
 }
-
+ul {
+    list-style-type: none;
+}
 .App-top {
     background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
     margin: 0;

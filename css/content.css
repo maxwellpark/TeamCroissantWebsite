@@ -41,3 +41,60 @@ Center the video horizontally with margin auto */
     display: block;
     margin: auto;
 }
+
+.content-text-container {
+    font-size: 28px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Team-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 200px;
+    gap: 40px 10px;
+}
+
+.Team-grid-item {
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Team-grid-item img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.Team-grid-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Team-member-header {
+    font-size: 20px;
+    color: #00b9be;
+}
+
+.Team-member-role {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ff6973;
+}
+
+.Team-member-favourites {
+    color: #00b9be;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.Team-member-favourites-list {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
