@@ -26,3 +26,18 @@
     padding-bottom: 16px;
     background: radial-gradient(50% 50% at 50% 50%, #ff6973 0%, #46425e 0.01%);
 }
+
+/* Set the video container to full width and auto adjust height */
+.video-container {
+    width: 100%;
+    height: auto;
+}
+
+/* Set the video element to 75% width of its container, and auto adjust height.
+Center the video horizontally with margin auto */
+.video-container video {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
