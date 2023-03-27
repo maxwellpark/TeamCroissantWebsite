@@ -48,6 +48,10 @@ Center the video horizontally with margin auto */
     margin-right: 12px;
 }
 
+.Team-container {
+    margin-bottom: 100px;
+}
+
 .Team-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -99,4 +103,9 @@ Center the video horizontally with margin auto */
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
+}
+
+.Contact-container {
+    background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
+    padding-top: 12px;
 }
