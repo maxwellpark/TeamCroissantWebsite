@@ -1,4 +1,10 @@
 /* Common styles for all screen sizes */
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Economica";
     font-style: normal;
@@ -8,7 +14,19 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     padding: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.App-top {
     background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
+    margin: 0;
+    padding: 0;
 }
 
 /* Home (Desktop) */
@@ -16,7 +34,6 @@ body {
     body {
         margin: 0;
         padding: 0;
-        background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
     }
     .container {
         max-width: 1440px;
@@ -29,7 +46,6 @@ body {
         height: 805px;
         left: 317px;
         top: 158px;
-        background: url("Croissant With White Buttons 1.png");
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .croissant-text {
@@ -65,7 +81,6 @@ body {
     body {
         margin: 0;
         padding: 0;
-        background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
     }
     .container {
         max-width: 100%;
@@ -78,7 +93,6 @@ body {
         height: auto;
         top: 0;
         left: 0;
-        background: url("img/Croissant With White Buttons.png");
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .croissant-text {

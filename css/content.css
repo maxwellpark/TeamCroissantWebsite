@@ -1,0 +1,28 @@
+.App-img-container {
+    padding-top: 80px;
+    margin: 0;
+}
+
+.OurWork-container {
+    width: 100%;
+}
+
+.OurWork-header {
+    font-size: 64px;
+}
+
+.section-header {
+    font-size: 64px;
+}
+
+.content-img-container > img {
+    width: 75%; /* Set the width of the image to 75% of the parent element */
+    max-width: 100%; /* Make sure the image does not exceed the width of the parent element */
+    height: auto; /* Set the height to auto to maintain the aspect ratio of the image */
+}
+
+.content-container {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    background: radial-gradient(50% 50% at 50% 50%, #ff6973 0%, #46425e 0.01%);
+}
