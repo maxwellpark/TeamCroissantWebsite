@@ -4,6 +4,7 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+
 body {
     font-family: "Economica";
     font-style: normal;
@@ -16,13 +17,16 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
 main {
     margin: 0;
     padding: 0;
 }
+
 ul {
     list-style-type: none;
 }
+
 .App-top {
     background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
     margin: 0;
@@ -35,11 +39,13 @@ ul {
         margin: 0;
         padding: 0;
     }
+
     .container {
         max-width: 1440px;
         margin: 0 auto;
         position: relative;
     }
+
     .croissant-wrapper {
         position: absolute;
         width: 805px;
@@ -48,6 +54,7 @@ ul {
         top: 158px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
+
     .croissant-text {
         position: absolute;
         width: 100%;
@@ -55,21 +62,25 @@ ul {
         font-size: 96px;
         line-height: 110px;
     }
+
     .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 35px 0;
     }
+
     .nav-item {
         font-size: 32px;
         line-height: 37px;
     }
+
     .nav-item a {
         color: #ffeecc;
         text-decoration: none;
         padding: 0 10px;
     }
+
     .nav-item a:hover {
         color: #ffeecc;
         text-decoration: underline;
@@ -82,11 +93,13 @@ ul {
         margin: 0;
         padding: 0;
     }
+
     .container {
         max-width: 100%;
         margin: 0;
         position: relative;
     }
+
     .croissant-wrapper {
         position: absolute;
         width: 100%;
@@ -95,6 +108,7 @@ ul {
         left: 0;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
+
     .croissant-text {
         position: absolute;
         width: 100%;
@@ -102,23 +116,246 @@ ul {
         font-size: 48px;
         line-height: 55px;
     }
+
     .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 15px 0;
     }
+
     .nav-item {
         font-size: 24px;
         line-height: 28px;
     }
+
     .nav-item a {
         color: #ffeecc;
         text-decoration: none;
         padding: 0 10px;
     }
+
     .nav-item a:hover {
         color: #ffeecc;
         text-decoration: underline;
     }
+}
+
+/* The header container */
+.Header {
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: space-between;
+    /* Align items to the left and right */
+    align-items: center;
+    /* Center items vertically */
+    position: fixed;
+    /* Make the header fixed so it stays at the top of the page */
+    top: 0;
+    /* Position the header at the top of the page */
+    right: 0;
+    /* Position the header at the right of the page */
+    left: 0;
+    /* Position the header at the left of the page */
+    z-index: 999;
+    /* Set the z-index to make sure the header is on top of other elements */
+    background-color: #ff6973;
+    /* Set the background color of the header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a shadow to the header */
+    height: 85px;
+    /* Set the height of the header */
+    margin: 0;
+    padding: 0;
+}
+
+/* The "Team Croissant" text */
+.Header-team-text {
+    font-family: "Economica", sans-serif;
+    /* Set the font family for the text */
+    font-size: 48px;
+    /* Set the font size for the text */
+    font-weight: 700;
+    /* Set the font weight for the text */
+    color: #ffeecc;
+    /* Set the color of the text */
+    cursor: pointer;
+    /* Set the cursor to a pointer when hovering over the text */
+    transition: all 0.2s ease-in-out;
+    /* Add a smooth transition effect */
+    width: 66.67%;
+    /* Set the width of the text to two-thirds of the header */
+    background-color: #46425e;
+    /* Set the background color of the text */
+    height: 100%;
+    /* Set the height of the "Team Croissant" container to 100% */
+    display: flex;
+    /* Use flexbox to align items */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    margin-left: 0;
+    /* Remove the left margin */
+}
+
+/* The navigation links */
+.Header-navbar {
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: flex-end;
+    /* Align items to the right */
+    align-items: center;
+    /* Center items vertically */
+    gap: 20px;
+    /* Add some space between the links */
+    width: 33.33%;
+    /* Set the width of the links to one-third of the header */
+    height: 80px;
+    /* Set the height of the navigation bar */
+    display: flex;
+    /* Use flexbox to align items */
+    align-items: center;
+    /* Center items vertically */
+    padding: 0 20px;
+    font-size: 32px;
+}
+
+/* The individual navigation links */
+.Header-navbar>div {
+    font-family: "Economica", sans-serif;
+    /* Set the font family for the links */
+    font-size: 32px;
+    /* Set the font size for the links */
+    font-weight: 500;
+    /* Set the font weight for the links */
+    color: #ffffff;
+    /* Set the color of the links */
+    cursor: pointer;
+    /* Set the cursor to a pointer when hovering over the links */
+    transition: all 0.2s ease-in-out;
+    /* Add a smooth transition effect */
+}
+
+/* The hover effect for the navigation links */
+.Header-navbar>div:hover {
+    color: #eee;
+    /* Set the color of the links when hovering over them */
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.App-img-container {
+    padding-top: 80px;
+    margin: 0;
+}
+
+.OurWork-container {
+    width: 100%;
+}
+
+.OurWork-header {
+    font-size: 64px;
+}
+
+.section-header {
+    font-size: 64px;
+}
+
+.content-img-container>img {
+    width: 75%;
+    /* Set the width of the image to 75% of the parent element */
+    max-width: 100%;
+    /* Make sure the image does not exceed the width of the parent element */
+    height: auto;
+    /* Set the height to auto to maintain the aspect ratio of the image */
+}
+
+.content-container {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    background: radial-gradient(50% 50% at 50% 50%, #ff6973 0%, #46425e 0.01%);
+}
+
+/* Set the video container to full width and auto adjust height */
+.video-container {
+    width: 100%;
+    height: auto;
+}
+
+/* Set the video element to 75% width of its container, and auto adjust height.
+Center the video horizontally with margin auto */
+.video-container video {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.content-text-container {
+    font-size: 28px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Team-container {
+    margin-bottom: 100px;
+}
+
+.Team-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 200px;
+    gap: 40px 10px;
+}
+
+.Team-grid-item {
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Team-grid-item img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Team-grid-item h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Team-member-header {
+    color: #00b9be;
+}
+
+.Team-member-role {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ff6973;
+}
+
+.Team-member-favourites {
+    color: #00b9be;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.Team-member-favourites-list {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.Contact-container {
+    background: linear-gradient(180deg, #00b9be 0%, #15788c 100%);
+    padding-top: 12px;
 }

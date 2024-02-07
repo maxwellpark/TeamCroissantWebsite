@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Team Croissant</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/content.css">
-        <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
-    </head>
-    <body id="HomeTarget">  
-        <header class="Header">
-            <div class="Header-team-text">Team Croissant</div>
-            <div class="Header-navbar">
-                <div class="Header-navbar-home Header-nav-item" data-target="HomeTarget">Home</div>
-                <div class="Header-navbar-our-work Header-nav-item" data-target="OurWorkTarget">Our Work</div>
-                <div class="Header-navbar-team Header-nav-item" data-target="TeamTarget">Team</div>
-                <div class="Header-navbar-contact Header-nav-item" data-target="ContactTarget">Contact</div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Croissant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body id="HomeTarget">
+    <header class="Header">
+        <div class="Header-team-text">Team Croissant</div>
+        <div class="Header-navbar">
+            <div class="Header-navbar-home Header-nav-item" data-target="HomeTarget">Home</div>
+            <div class="Header-navbar-our-work Header-nav-item" data-target="OurWorkTarget">Our Work</div>
+            <div class="Header-navbar-team Header-nav-item" data-target="TeamTarget">Team</div>
+            <div class="Header-navbar-contact Header-nav-item" data-target="ContactTarget">Contact</div>
+        </div>
+    </header>
+    <main class="App-main">
+        <div class="App-top">
+            <div class="App-img-container">
+                <img src="img/Croissant_With_White_Buttons.png" alt="Croissant"></img>
             </div>
-        </header>
-                <main class="App-main">
-                <div class="App-top">
-                    <div class="App-img-container">
-                        <img src="img/Croissant_With_White_Buttons.png" alt="Croissant"></img>
+        </div>
+        <div class="content-container">
+            <!-- Our Work -->
+            <div id="OurWork" class="OurWork-container">
+                <h2 id="OurWorkTarget" class="OurWork-header section-header">Our Work</h2>
+                <div class="video-container">
+                    <video autoplay loop class="Ourwork-video" width="320" height="240" controls>
+                        <source src="video/Trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- Starlight -->
+            <div id="Starlight" class="Starlight-container">
+                <h3 id="StarlightTarget" class="Staright-header section-header">Starlight Express</h3>
+                <div class="Starlight-img-container content-img-container">
+                    <img src="img/Starlight.png" alt="Starlight Express"></img>
+                </div>
+                <div class="Starlight-text-container content-text-container">
+                    <p>Welcome to Starlight Express. Please ignore the impending collapse of reality as you know it,
+                        your interplanetary shipping company isn't going to run itself!<br /><br />
+                        Starlight Express is a story driven, sci-fi life sim inspired by Stardew Valley and Mass Effect
+                        2.</p>
+                </div>
+            </div>
+            <!-- Candy -->
+            <div id="Candy" class="Candy-container">
+                <h3 id="CandyTarget" class="Candy-header section-header">Candy Core Crisis</h3>
+                <div class="Candy-img-container content-img-container">
+                    <img src="img/Candy.png" alt="Candy"></img>
+                </div>
+                <div class="Starlight-text-container content-text-container">
+                    <p>Lollipop Lake cries for help! A ragtag group of daring intergalactic mercenary pilots.</p>
+                </div>
+            </div>
+            <!-- Team -->
+            <div id="Team" class="Team-container">
+                <h3 id="TeamTarget" class="Team-header section-header">Team</h3>
+                <div class="Team-grid-container">
+                    <div class="Team-grid-item">
+                        <img src="img/portraits/MaxPortrait.png" alt="Image 1">
+                        <h3 class="Team-member-header">Max Hooton</h3>
+                        <p class="Team-member-role">Engineer & Developer</p>
+                        <p class="Team-member-favourites">Favourite Games:</p>
+                        <p class="Team-member-favourites-list">
+                            Baldur's Gate<br />Shadow of Memories<br />Tomb Raider 2
+                        </p>
+                    </div>
+                    <div class="Team-grid-item">
+                        <img src="img/portraits/JManPortrait.png" alt="Image 2">
+                        <h3 class="Team-member-header">Joaquim Pinkalsky</h3>
+                        <p class="Team-member-role">Artist, Animator & Developer</p>
+                        <p class="Team-member-favourites">Favourite Games:</p>
+                        <p class="Team-member-favourites-list">
+                            Secret of Mana<br />Suikoden 2<br />Shadow of the Colossus
+                        </p>
+                    </div>
+                    <div class="Team-grid-item">
+                        <img src="img/portraits/StefPortrait.png" alt="Image 3">
+                        <h3 class="Team-member-header">Stefano di Pace</h3>
+                        <p class="Team-member-role">Game Designer & Creative Director</p>
+                        <p class="Team-member-favourites">Favourite Games:</p>
+                        <p class="Team-member-favourites-list">
+                            Metal Gear Solid 3: Snake Eater<br />The Legend of Zelda: Wind Waker<br />Way of The Samurai
+                            2
+                        </p>
+                    </div>
+                    <div class="Team-grid-item">
+                        <img src="img/portraits/ChrisPortrait.png" alt="Image 4">
+                        <h3 class="Team-member-header">Chris Weber</h3>
+                        <p class="Team-member-role">Writer & Narrative Designer</p>
+                        <p class="Team-member-favourites">Favourite Games:</p>
+                        <p class="Team-member-favourites-list">
+                            The Legend of Zelda: Breath of The Wild<br />Mario Kart 64 <br />The Curse of Monkey Island
+                        </p>
                     </div>
                 </div>
-                <div class="content-container">
-                    <!-- Our Work -->
-                    <div id="OurWork" class="OurWork-container">
-                        <h2 id="OurWorkTarget" class="OurWork-header section-header">Our Work</h2>
-                        <div class="video-container">
-                            <video autoplay loop class="Ourwork-video" width="320" height="240" controls>
-                                <source src="video/Trailer.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <!-- Starlight -->
-                    <div id="Starlight" class="Starlight-container">
-                        <h3 id="StarlightTarget" class="Staright-header section-header">Starlight Express</h3>
-                        <div class="Starlight-img-container content-img-container">
-                            <img src="img/Starlight.png" alt="Starlight Express"></img>
-                        </div>
-                        <div class="Starlight-text-container content-text-container">
-                            <p>Welcome to Starlight Express. Please ignore the impending collapse of reality as you know it, your interplanetary shipping company isn't going to run itself!<br /><br /> 
-                                Starlight Express is a story driven, sci-fi life sim inspired by Stardew Valley and Mass Effect 2.</p>
-                        </div>
-                    </div>
-                    <!-- Candy -->
-                    <div id="Candy" class="Candy-container">
-                        <h3 id="CandyTarget" class="Candy-header section-header">Candy Core Crisis</h3>
-                        <div class="Candy-img-container content-img-container">
-                            <img src="img/Candy.png" alt="Candy"></img>
-                        </div>
-                        <div class="Starlight-text-container content-text-container">
-                            <p>Lollipop Lake cries for help! A ragtag group of daring intergalactic mercenary pilots.</p>
-                        </div>
-                    </div>
-                    <!-- Team -->
-                    <div id="Team" class="Team-container">
-                        <h3 id="TeamTarget" class="Team-header section-header">Team</h3>
-                        <div class="Team-grid-container">
-                            <div class="Team-grid-item">
-                                <img src="img/portraits/MaxPortrait.png" alt="Image 1">
-                                <h3 class="Team-member-header">Max Hooton</h3>
-                                <p class="Team-member-role">Engineer & Developer</p>
-                                <p class="Team-member-favourites">Favourite Games:</p>
-                                <p class="Team-member-favourites-list">
-                                    Baldur's Gate<br/>Shadow of Memories<br/>Tomb Raider 2
-                                </p>
-                            </div>
-                            <div class="Team-grid-item">
-                                <img src="img/portraits/JManPortrait.png" alt="Image 2">
-                                <h3 class="Team-member-header">Joaquim Pinkalsky</h3>
-                                <p class="Team-member-role">Artist, Animator & Developer</p>
-                                <p class="Team-member-favourites">Favourite Games:</p>
-                                <p class="Team-member-favourites-list">
-                                    Secret of Mana<br/>Suikoden 2<br/>Shadow of the Colossus
-                                </p>
-                            </div>
-                            <div class="Team-grid-item">
-                                <img src="img/portraits/StefPortrait.png" alt="Image 3">
-                                <h3 class="Team-member-header">Stefano di Pace</h3>
-                                <p class="Team-member-role">Game Designer & Creative Director</p>
-                                <p class="Team-member-favourites">Favourite Games:</p>
-                                <p class="Team-member-favourites-list">
-                                    Metal Gear Solid 3: Snake Eater<br/>The Legend of Zelda: Wind Waker<br/>Way of The Samurai 2
-                                </p>
-                            </div>
-                            <div class="Team-grid-item">
-                                <img src="img/portraits/ChrisPortrait.png" alt="Image 4">
-                                <h3 class="Team-member-header">Chris Weber</h3>
-                                <p class="Team-member-role">Writer & Narrative Designer</p>
-                                <p class="Team-member-favourites">Favourite Games:</p>
-                                <p class="Team-member-favourites-list">
-                                    The Legend of Zelda: Breath of The Wild<br/>Mario Kart 64 <br/>The Curse of Monkey Island
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Contact -->
-                <div id="Contact" class="Contact-container">
-                    <h3 id="ContactTarget" class="Contact-header section-header">Contact</h3>
-                    <div class="App-img-container">
-                        <img src="img/ContactIcon.png" alt="Contact"></img>
-                    </div>
-                </div>
-            </main>
-            <script src="js/main.js"></script> 
-    </body>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div id="Contact" class="Contact-container">
+            <h3 id="ContactTarget" class="Contact-header section-header">Contact</h3>
+            <div class="App-img-container">
+                <img src="img/ContactIcon.png" alt="Contact"></img>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
