@@ -247,6 +247,7 @@ ul {
     width: 75%;
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .content-container {
@@ -265,6 +266,7 @@ ul {
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 10px;
 }
 
 .content-text-container {
