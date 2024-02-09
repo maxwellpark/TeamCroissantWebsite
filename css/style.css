@@ -89,7 +89,7 @@ ul {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     body {
         margin: 0;
         padding: 0;
@@ -152,6 +152,11 @@ ul {
         color: #ffeecc;
         text-decoration: underline;
     }
+
+    .Team-grid-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+        margin: 0 !important;
+    }
 }
 
 .Header {
@@ -188,9 +193,9 @@ ul {
 
 .Header-navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     width: 33.33%;
     height: 80px;
     display: flex;
