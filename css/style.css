@@ -38,6 +38,10 @@ ul {
         padding: 0;
     }
 
+    .Header-navbar {
+        display: flex !important;
+    }
+
     .container {
         max-width: 1440px;
         margin: 0 auto;
@@ -89,6 +93,18 @@ ul {
     body {
         margin: 0;
         padding: 0;
+    }
+
+    .Header {
+        background-color: #46425e !important;
+    }
+
+    .Header-team-text {
+        width: 100% !important;
+    }
+
+    .Header-navbar {
+        display: none !important;
     }
 
     .container {
@@ -207,9 +223,7 @@ ul {
 }
 
 .App-img-container>img {
-    width: 100%;
     max-width: 100%;
-    height: auto;
 }
 
 .OurWork-container {
