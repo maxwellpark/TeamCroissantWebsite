@@ -45,9 +45,10 @@ ul {
 }
 
 #email-text {
-    margin: 12px 0px 24px 0px;
-    font-size: 96px;
+    font-size: 3rem;
     color: #000000;
+    margin: 8px 8px 8px 8px;
+    word-break: break-all;
 }
 
 @media only screen and (min-width: 1024px) {
