@@ -32,6 +32,24 @@ ul {
     padding: 0;
 }
 
+.Starlight-container,
+.Candy-container,
+.Team-container,
+.Princess-container {
+    margin-top: 100px;
+}
+
+.Contact-container {
+    margin-bottom: 24px;
+    height: 1000px;
+}
+
+#email-text {
+    margin: 12px 0px 24px 0px;
+    font-size: 96px;
+    color: #000000;
+}
+
 @media only screen and (min-width: 1024px) {
     body {
         margin: 0;
